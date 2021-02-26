@@ -7,7 +7,7 @@ export function CountDown() {
 
     const [time, setTime] = useState(0.1 * 60);
     const [isActive, setIsActive] = useState(false);
-
+    const [hasFinished, setHasFinished] = useState(false);
 
     const minutes = Math.floor(time / 60);
     const seconds = time % 60;
@@ -30,6 +30,8 @@ export function CountDown() {
                 setTime(time - 1);
             }, 1000)
         } else if (isActive && time === 0) {
+            setHasFinished(true);
+            setIsActive(false);
         }
     }, [isActive, time])
     return (
@@ -46,23 +48,36 @@ export function CountDown() {
                 </div>
             </div>
 
-            {isActive ? (
+            { hasFinished ? (
                 <button
-                    type="button"
-                    className={`${styles.countDownButton} ${styles.countDownButtonActive}`}
-                    onClick={resetCountDown}
+                    disabled
+                    className={styles.countDownButton}
                 >
-                    Abandonar ciclo
+                    Ciclo encerrado
                 </button>
             ) : (
-                    <button
-                        type="button"
-                        className={styles.countDownButton}
-                        onClick={startCountDown}
-                    >
-                        Iniciar um ciclo
-                    </button>
+                    <>
+                        {isActive ? (
+                            <button
+                                type="button"
+                                className={`${styles.countDownButton} ${styles.countDownButtonActive}`}
+                                onClick={resetCountDown}
+                            >
+                                Abandonar ciclo
+                            </button>
+                        ) : (
+                                <button
+                                    type="button"
+                                    className={styles.countDownButton}
+                                    onClick={startCountDown}
+                                >
+                                    Iniciar um ciclo
+                                </button>
+                            )}
+                    </>
                 )}
+
+
         </div>
     )
 }
