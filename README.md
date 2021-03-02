@@ -1,34 +1,88 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+    <img alt="move.it" title="move.it" src=".github/logo-full.svg" />
+</h1>
 
-## Getting Started
+<h1 align="center" >move.it 1.0</h1>
+<p align="center">
+    <a href="README.md">English</a>
+    ·
+    <a href="README-pt.md">Portuguese</a>
+ </p>
 
-First, run the development server:
+<p align="center">
+  <a href="#computer-project">Project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#tada">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#art">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#construction_worker-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+   <a href="#construction_worker-how-to-run">Contribuing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#construction_worker-how-to-run">Coming Soon - move.it 2.0</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#closed_book-license">License</a>
+</p>
+<p>
+  <img alt="app screenshot" src=".github/"/>
+</p>
+<p>
+  <img alt="app screenshot" src=".github/"/>
+</p>
+
+## :computer: Project
+Move.it is an application that uses the Pomodoro technique to encourage those who spend many hours at the computer to take breaks. At the end of each focused work cycle of 25 minutes, the person receives a small exercise challenge that aims to avoid injuries caused by long periods of time in the same position in front of computer.
+
+### :eyes: Demo moveit-al.vercel.app/
+</br>
+<strong>Project made in Next Level Week #4 @Rocketseat</strong>
+
+## :rocket: Technologies
+
+* [ReactJS](https://reactjs.org/)
+  
+* [NextJS](https://nextjs.org/)
+
+* [TypeScript](https://www.typescriptlang.org/)
+  
+* [Vercel](https://vercel.com/) - Deploy
+
+## :tada: Features
+* Pomodoro timer
+* Small exercise challenges
+* Score for completed challenges
+* Level progression
+
+## :art: Layout
+
+## :construction_worker: How to run
+</br>
+
+> To clone and run this application its necessary to have [Git](https://git-scm.com/) and [NodeJS](https://nodejs.org/en/) installed on your computer.
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone repository
+$ git clone https://github.com/alauraivani/nlw4-moveit
 ```
+```bash
+# Go to the project folder
+$ cd nlw4-moveit/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# Install Dependencies
+$ yarn install
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Run the application in development mode
+$ yarn dev
+```
+## :closed_book: License
+This project is under the MIT license. See the file [LICENSE](LICENSE) for more details.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+---
+<div align="center">
+  <sub>The NLW #4 project. Built with :heart: by
+    <a href="https://github.com/alauraivani">Anna Laura</a> and
+    <a href="https://github.com/alauraivani/nlw4-moveit/graphs/contributors">
+      contributors
+    </a>
+  </sub>
+</div>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
