@@ -15,24 +15,19 @@
   <a href="#tada">Features</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#art">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#construction_worker-how-to-run">How to run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-   <a href="#construction_worker-how-to-run">Contribuing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#construction_worker-how-to-run">Coming Soon - move.it 2.0</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bulb">Coming Soon - move.it 2.0</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#handshake:">Contribuing</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#closed_book-license">License</a>
-</p>
-<p>
-  <img alt="app screenshot" src=".github/"/>
-</p>
-<p>
-  <img alt="app screenshot" src=".github/"/>
 </p>
 
 ## :computer: Project
-Move.it is an application that uses the Pomodoro technique to encourage those who spend many hours at the computer to take breaks. At the end of each focused work cycle of 25 minutes, the person receives a small exercise challenge that aims to avoid injuries caused by long periods of time in the same position in front of computer.
+Move.it is an application that uses the Pomodoro technique to encourage those who spend many hours at the computer to take breaks. At the end of each focused work cycle of 25 minutes, the person receives a small exercise challenge that aims to avoid injuries caused by long periods of time in the same position in front of computer.</br>
 
-### :eyes: Demo moveit-al.vercel.app/
-</br>
 <strong>Project made in Next Level Week #4 @Rocketseat</strong>
 
+### :eyes: Demo 
+
+* https://moveit-al.vercel.app/
 ## :rocket: Technologies
 
 * [ReactJS](https://reactjs.org/)
@@ -47,9 +42,18 @@ Move.it is an application that uses the Pomodoro technique to encourage those wh
 * Pomodoro timer
 * Small exercise challenges
 * Score for completed challenges
-* Level progression
+* Level up progression
 
-## :art: Layout
+## :art: Layout and Screenshots
+
+[Figma design](https://www.figma.com/file/D9nUtv8xVbuOl0pO9pf7Rz/Move.it-1.0-Copy-Copy?node-id=160%3A2761)
+
+<p>
+  <img alt="app screenshot" src=".github/challenge.png"/>
+</p>
+<p>
+  <img alt="app screenshot" src=".github/levelup.png"/>
+</p>
 
 ## :construction_worker: How to run
 </br>
@@ -70,6 +74,18 @@ $ yarn install
 # Run the application in development mode
 $ yarn dev
 ```
+
+## :bulb: Move.it 2.0 - coming soon
+
+* Responsive web design
+* PWA
+* Dark Theme
+* Github OAuth
+* Ranking page
+* Share your level up on social media
+* Notification improving
+## :handshake: Contribuing
+
 ## :closed_book: License
 This project is under the MIT license. See the file [LICENSE](LICENSE) for more details.
 
